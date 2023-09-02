@@ -1,0 +1,14 @@
+{
+    "name": "pixel/honourphp",
+    "description": "Honour's official PHP framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ikwerre-dev",
+            "email": "investorhonour@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
