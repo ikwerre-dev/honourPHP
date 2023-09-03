@@ -1,14 +1,41 @@
 {
     "name": "pixel/honourphp",
     "description": "Honour's official PHP framework",
+    "keywords" : ["framework","php","honourphp"],
     "type": "library",
     "license": "MIT",
+    "readme" : "",
+    "time" : "",
+    "support":{
+        "issues": "https://github.com/ikwerre-dev/honourPHP/issues",
+        "source" : "https://github.com/ikwerre-dev/honourPHP",
+        "wiki": "https://github.com/ikwerre-dev/honourPHP/wiki"
+    },
     "authors": [
         {
             "name": "ikwerre-dev",
-            "email": "investorhonour@gmail.com"
+            "email": "investorhonour@gmail.com",
+            "role" : "Developer"
         }
     ],
     "minimum-stability": "alpha",
-    "require": {}
+    "require": {
+        "php" : "7.4.2!^9.0",
+        "ext-mbstring" : "*",
+        "ext-iconv" : "*",
+        "ext-pdo" : "*",
+        "ext-json" : "*",
+        "ext-curl" : "*",
+        "ext-simplexml" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "honourphp\\": "src/honourphp"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "honourphp\\Tests\\": "tests/"
+        }
+    }
 }
